@@ -49,12 +49,12 @@ const Empresa: NextPage = () => {
                 </div>
 
                 <section>
-                    <hr className="max-w-xs mx-auto mb-6" />
+                    <hr className="max-w-xs mx-auto my-6" />
                     <h3 className="text-3xl text-center max-w-lg leading-tight my-12 text-green-900">
                         Somos uma Equipe dedicada a proporcionar excelência em
                         cada serviço oferecido.
                     </h3>
-                    <hr className="max-w-xs mx-auto mb-6" />
+                    <hr className="max-w-xs mx-auto my-6" />
                 </section>
 
                 <div className="grid gap-12 grid-cols-2 max-w-3xl my-12 text-justify">
@@ -130,7 +130,7 @@ const Empresa: NextPage = () => {
                     </div>
                 </section>
                 <section className="text-center max-w-3xl my-12 flex flex-col gap-8">
-                    <hr className="max-w-xs mb-6" />
+                    <hr className="max-w-xs mx-auto mb-6" />
                     <p>
                         O Botânico Hotel Fazenda conta com uma estrutura
                         completa para agradar a todas as idades, com atividades
@@ -147,7 +147,7 @@ const Empresa: NextPage = () => {
                         acomodações perfeitas para relaxar recompondo as
                         energias.
                     </p>
-                    <hr className="max-w-xs mb-6" />
+                    <hr className="max-w-xs mx-auto mt-6" />
                     <a href="#" className="btn btn-success">
                         Veja o Regulamento
                     </a>

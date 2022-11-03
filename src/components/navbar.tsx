@@ -71,7 +71,7 @@ export default function Navbar() {
                         <Link href={"/quem-somos"}>Quem somos</Link>
                     </li>
                     <li>
-                        <a>Acomodações</a>
+                        <Link href={"/acomodacoes"}>Acomodações</Link>
                     </li>
                     <li>
                         <a>Day Use</a>
