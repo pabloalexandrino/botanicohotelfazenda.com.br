@@ -74,7 +74,7 @@ export default function Navbar() {
                         <Link href={"/acomodacoes"}>Acomodações</Link>
                     </li>
                     <li>
-                        <a>Day Use</a>
+                        <Link href={"/dayuse"}>Day Use</Link>
                     </li>
                     <li>
                         <a>Serviços</a>

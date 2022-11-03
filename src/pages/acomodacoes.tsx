@@ -38,7 +38,7 @@ const Acomodacoes: NextPage = () => {
                         </div>
                     </div>
                 </div>
-                <section className="text-center">
+                <section className="text-center px-6">
                     <hr className="max-w-xs mx-auto my-6" />
                     <h3 className="text-center max-w-lg leading-tight my-12">
                         Nossas acomodações são equipadas com camas king size, ar
@@ -54,12 +54,12 @@ const Acomodacoes: NextPage = () => {
                         Nossos Apartamentos e Suítes
                     </h3>
                 </section>
-                <section className="pb-12">
-                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 text-center bg-white max-w-7xl mx-auto">
+                <section className="pb-12 px-6">
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center bg-white max-w-7xl mx-auto">
                         <CardAcomodacoes
                             title="Apartamento Luxo"
                             images={[
-                                "botanicohotel-503-ap-luxo1-1538x1025 (1).jpg",
+                                "botanicohotel-503-ap-luxo1-1538x1025.jpg",
                                 "46f3824b-9d13-44a7-b513-be56ee544c82-1-1200x1600.jpg",
                                 "botanicohotel-503-ap-luxo1-1538x1025.jpg",
                                 "botanicohotel-503-ap-luxo2-1130x753.jpg",
