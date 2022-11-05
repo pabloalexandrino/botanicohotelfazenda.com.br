@@ -93,9 +93,13 @@ const Acomodacoes: NextPage = () => {
                             Venha fazer uma visita técnica, faça seu Briefing e
                             solicite seu orçamento.
                         </h3>
-                        <a href="#" className="btn btn-success">
+                        <Link
+                            href="Planta Centro Convencao e Praca - 23-02-22"
+                            className="btn btn-success"
+                            target={"_blank"}
+                        >
                             Visualizar Planta Baixa
-                        </a>
+                        </Link>
                         <hr className="max-w-xs mx-auto my-6" />
                     </section>
                     <section className="w-full mb-8 text-center text-white">
