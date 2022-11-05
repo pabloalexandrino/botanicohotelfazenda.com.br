@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import CardAcomodacoes from "../components/cardAcomodacoes";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -16,7 +15,7 @@ const Acomodacoes: NextPage = () => {
             <Navbar />
             <div className="flex min-h-screen flex-col items-center justify-center">
                 <div
-                    className="hero min-h-screen"
+                    className="hero h-[600px]"
                     style={{
                         backgroundImage: `url(/23-dayuse-2000x1333.jpg)`,
                         backgroundAttachment: "fixed",
@@ -41,7 +40,7 @@ const Acomodacoes: NextPage = () => {
                     </div>
                 </div>
                 <section className="pb-12">
-                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 my-8 max-w-7xl -mt-36">
+                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 my-8 max-w-7xl -mt-16">
                         <div className="card card-compact bg-white shadow-lg text-center">
                             <div className="card-body text-success">
                                 <FontAwesomeIcon icon={faClock} size="3x" />

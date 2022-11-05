@@ -77,7 +77,7 @@ export default function Navbar() {
                         <Link href={"/dayuse"}>Day Use</Link>
                     </li>
                     <li>
-                        <a>Serviços</a>
+                        <Link href={"/servicos"}>Serviços</Link>
                     </li>
                     <li>
                         <a>Experiências</a>

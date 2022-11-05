@@ -10,7 +10,7 @@ const Acomodacoes: NextPage = () => {
             <Navbar />
             <div className="flex min-h-screen flex-col items-center justify-center">
                 <div
-                    className="hero min-h-screen"
+                    className="hero h-96"
                     style={{
                         backgroundImage: `url(/acomodacao.jpg)`,
                         backgroundAttachment: "fixed",

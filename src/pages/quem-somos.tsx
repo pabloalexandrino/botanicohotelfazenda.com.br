@@ -101,7 +101,7 @@ const Empresa: NextPage = () => {
                         </div>
                     </div>
 
-                    <section className="bg-gray-200 w-full lg:p-12">
+                    <section className="bg-gray-100 w-full lg:p-12">
                         <div className="grid gap-4 lg:grid-cols-3 max-w-7xl mx-auto">
                             <div className="card bg-white shadow-lg">
                                 <div className="card-body">
