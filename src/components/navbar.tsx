@@ -80,13 +80,15 @@ export default function Navbar() {
                         <Link href={"/servicos"}>Serviços</Link>
                     </li>
                     <li>
-                        <a>Experiências</a>
+                        <Link href={"/experiencias"}>Experiências</Link>
                     </li>
                     <li>
-                        <a>Centro de Convenções</a>
+                        <Link href={"/centro-de-convencoes"}>
+                            Centro de Convenções
+                        </Link>
                     </li>
                     <li>
-                        <a>Contato</a>
+                        <Link href={"/contato"}>Contato</Link>
                     </li>
                 </ul>
             </div>
