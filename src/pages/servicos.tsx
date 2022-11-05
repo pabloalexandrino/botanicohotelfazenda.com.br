@@ -8,6 +8,7 @@ import {
     faShop,
     faSpa,
 } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 const Acomodacoes: NextPage = () => {
     return (
@@ -30,9 +31,13 @@ const Acomodacoes: NextPage = () => {
                                 Serviços
                             </h1>
                             <hr className="max-w-xs mx-auto mt-6" />
-                            <a href="#" className="btn btn-success mt-12">
+                            <Link
+                                href="https://wa.me/5518991979000"
+                                className="btn btn-success btn-block mt-12"
+                                target={"_blank"}
+                            >
                                 Agendar agora
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

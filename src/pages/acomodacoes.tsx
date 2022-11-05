@@ -32,9 +32,13 @@ const Acomodacoes: NextPage = () => {
                                 inclusos)
                             </p>
                             <hr className="max-w-xs mx-auto mt-6" />
-                            <a href="#" className="btn btn-success mt-12">
+                            <Link
+                                href="https://wa.me/5518991979000"
+                                className="btn btn-success mt-12"
+                                target={"_blank"}
+                            >
                                 Agendar agora
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

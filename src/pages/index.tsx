@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Link from "next/link";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 
@@ -26,9 +27,13 @@ const Home: NextPage = () => {
                                 Sinta o aroma do campo
                             </p>
                             <hr className="max-w-xs mx-auto mb-6" />
-                            <a href="#" className="btn btn-success mt-12">
+                            <Link
+                                href="https://wa.me/5518991979000"
+                                className="btn btn-success btn-block mt-12"
+                                target={"_blank"}
+                            >
                                 Agendar agora
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

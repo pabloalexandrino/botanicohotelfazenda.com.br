@@ -82,7 +82,11 @@ export default function CardAcomodacoes({ ...params }) {
                     </ul>
 
                     <div className="card-actions justify-end">
-                        <Link href="#" className="btn btn-success btn-block">
+                        <Link
+                            href="https://wa.me/5518991979000"
+                            className="btn btn-success btn-block"
+                            target={"_blank"}
+                        >
                             Agendar agora
                         </Link>
                     </div>

@@ -149,7 +149,11 @@ const Empresa: NextPage = () => {
                             natureza e com acomodações perfeitas para relaxar
                             recompondo as energias.
                         </p>
-                        <a href="#" className="btn btn-success">
+                        <a
+                            target={"_blank"}
+                            href="/Regulamento_Botanico-HotelFazenda_2022.pdf"
+                            className="btn btn-success"
+                        >
                             Veja o Regulamento
                         </a>
                     </section>
