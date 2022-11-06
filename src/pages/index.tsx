@@ -69,7 +69,7 @@ const Home: NextPage = () => {
                         <div className="card pr-0">
                             <img
                                 src="/localizacao.webp"
-                                className="w-full h-full image-full"
+                                className="w-full h-full image-full hover:scale-105 duration-300"
                                 alt="Localização"
                             />
                         </div>
@@ -79,7 +79,7 @@ const Home: NextPage = () => {
                         <div className="card pr-0">
                             <img
                                 src="/comida.webp"
-                                className="w-full h-full image-full"
+                                className="w-full h-full image-full hover:scale-105 duration-300"
                                 alt="Comida da Fazenda"
                             />
                         </div>
@@ -129,7 +129,7 @@ const Home: NextPage = () => {
                         <div className="card pr-0">
                             <img
                                 src="/kids.webp"
-                                className="w-full h-full image-full"
+                                className="w-full h-full image-full hover:scale-105 duration-300"
                                 alt="Atividades para Crianças"
                             />
                         </div>
