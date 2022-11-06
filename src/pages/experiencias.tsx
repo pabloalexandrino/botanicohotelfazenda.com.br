@@ -30,7 +30,7 @@ const Experiencias: NextPage = () => {
                             <hr className="max-w-xs mx-auto mt-6" />
                             <Link
                                 href="https://wa.me/5518991979000"
-                                className="btn btn-success btn-block mt-12"
+                                className="btn btn-success btn-block mt-12 hover:scale-105 duration-300"
                                 target={"_blank"}
                             >
                                 Agendar agora
@@ -40,7 +40,7 @@ const Experiencias: NextPage = () => {
                 </div>
                 <section className="pb-12 mt-8">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-center max-w-7xl mx-auto">
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/18-parquinho-1157x798.jpg"
@@ -57,7 +57,7 @@ const Experiencias: NextPage = () => {
                             </div>
                         </div>
 
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/botanico-16-volei-1156x771.jpg"
@@ -74,7 +74,7 @@ const Experiencias: NextPage = () => {
                             </div>
                         </div>
 
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/foto-nova-beach-tenis-553x971.jpg"
@@ -91,7 +91,7 @@ const Experiencias: NextPage = () => {
                             </div>
                         </div>
 
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/foto-haras-1157x772.jpg"
@@ -109,7 +109,7 @@ const Experiencias: NextPage = () => {
                             </div>
                         </div>
 
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/foto-nova-fazendinha-montagem-990x660.jpg"
@@ -126,7 +126,7 @@ const Experiencias: NextPage = () => {
                             </div>
                         </div>
 
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/foto-nova-bikes-990x660.jpg"
@@ -146,7 +146,7 @@ const Experiencias: NextPage = () => {
                             </div>
                         </div>
 
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/botanico-64-sauna-1156x771.jpg"
@@ -163,7 +163,7 @@ const Experiencias: NextPage = () => {
                             </div>
                         </div>
 
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/20-piscina-social-1157x740.jpg"
@@ -181,7 +181,7 @@ const Experiencias: NextPage = () => {
                             </div>
                         </div>
 
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/foto-nova-banheira-spa-990x660.jpg"
@@ -197,7 +197,7 @@ const Experiencias: NextPage = () => {
                             </div>
                         </div>
 
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/foto-nova-skibum-990x660.jpg"
@@ -215,7 +215,7 @@ const Experiencias: NextPage = () => {
                             </div>
                         </div>
 
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/foto-nova-charrete2-735x929.jpg"
@@ -232,7 +232,7 @@ const Experiencias: NextPage = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/pesca-solte.jpg"

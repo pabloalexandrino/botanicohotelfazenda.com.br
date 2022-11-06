@@ -5,8 +5,8 @@ import logo from "../asset/logo.png";
 export default function Navbar() {
     return (
         <div className="navbar bg-base-100 text-yellow-700 shadow-lg text-sm">
-            <div className="navbar-start">
-                <div className="dropdown">
+            <div className="w-full justify-between flex-row-reverse lg:navbar-start lg:flex-row">
+                <div className="dropdown dropdown-end">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -28,32 +28,30 @@ export default function Navbar() {
                         className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
                     >
                         <li>
-                            <a>Item 1</a>
-                        </li>
-                        <li tabIndex={0}>
-                            <a className="justify-between">
-                                Parent
-                                <svg
-                                    className="fill-current"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                                </svg>
-                            </a>
-                            <ul className="p-2">
-                                <li>
-                                    <a>Submenu 1</a>
-                                </li>
-                                <li>
-                                    <a>Submenu 2</a>
-                                </li>
-                            </ul>
+                            <Link href={"/"}>Página Inicial</Link>
                         </li>
                         <li>
-                            <a>Item 3</a>
+                            <Link href={"/quem-somos"}>Quem somos</Link>
+                        </li>
+                        <li>
+                            <Link href={"/acomodacoes"}>Acomodações</Link>
+                        </li>
+                        <li>
+                            <Link href={"/dayuse"}>Day Use</Link>
+                        </li>
+                        <li>
+                            <Link href={"/servicos"}>Serviços</Link>
+                        </li>
+                        <li>
+                            <Link href={"/experiencias"}>Experiências</Link>
+                        </li>
+                        <li>
+                            <Link href={"/centro-de-convencoes"}>
+                                Centro de Convenções
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href={"/contato"}>Contato</Link>
                         </li>
                     </ul>
                 </div>

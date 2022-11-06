@@ -34,7 +34,7 @@ const Acomodacoes: NextPage = () => {
                             <hr className="max-w-xs mx-auto mt-6" />
                             <Link
                                 href="https://wa.me/5518991979000"
-                                className="btn btn-success mt-12"
+                                className="btn btn-success mt-12 hover:scale-105 duration-300"
                                 target={"_blank"}
                             >
                                 Agendar agora

@@ -33,7 +33,7 @@ const Servicos: NextPage = () => {
                             <hr className="max-w-xs mx-auto mt-6" />
                             <Link
                                 href="https://wa.me/5518991979000"
-                                className="btn btn-success btn-block mt-12"
+                                className="btn btn-success btn-block mt-12 hover:scale-105 duration-300"
                                 target={"_blank"}
                             >
                                 Agendar agora
@@ -74,7 +74,7 @@ const Servicos: NextPage = () => {
                     </h3>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-center max-w-7xl mx-auto">
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/botanico-7-700x1084.jpg"
@@ -93,7 +93,7 @@ const Servicos: NextPage = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/-mg-4425-700x1050.jpg"
@@ -115,7 +115,7 @@ const Servicos: NextPage = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/-mg-3596-700x1050.jpg"
@@ -137,7 +137,7 @@ const Servicos: NextPage = () => {
                 </section>
                 <section className="py-8 max-w-7xl px-6">
                     <hr className="max-w-xs mx-auto my-6" />
-                    <h3 className="text-center max-w-lg mx-auto leading-tight my-12 quote">
+                    <h3 className="text-center max-w-lg mx-auto leading-tight my-12">
                         Valorizamos a integração com os ambientes do Hotel e as
                         refeições são servidas no Restaurante com fartas opções.
                         Desse modo,{" "}
@@ -146,7 +146,7 @@ const Servicos: NextPage = () => {
                     <hr className="max-w-xs mx-auto my-6" />
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-center max-w-7xl mx-auto">
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/botanico-31-1140x760.jpg"
@@ -171,7 +171,7 @@ const Servicos: NextPage = () => {
                             </div>
                         </div>
 
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/foto-nova-spa-1920x1080.jpg"
@@ -194,7 +194,7 @@ const Servicos: NextPage = () => {
                             </div>
                         </div>
 
-                        <div className="card card-compact bg-white shadow-lg">
+                        <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
                                     src="/foto-haras-1140x760.jpg"

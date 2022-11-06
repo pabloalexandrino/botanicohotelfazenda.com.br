@@ -6,7 +6,7 @@ export default function Footer() {
             <a
                 href="https://wa.me/5518991979000"
                 target="_blank"
-                className="bg-[#4dc247] p-1 h-14 w-14 block rounded-full fixed bottom-4 right-4 shadow-md"
+                className="bg-[#4dc247] p-1 h-14 w-14 block rounded-full fixed bottom-4 right-4 shadow-md hover:scale-125 duration-300"
             >
                 <svg
                     viewBox="0 0 32 32"

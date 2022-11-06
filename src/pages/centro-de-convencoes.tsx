@@ -41,7 +41,7 @@ const Convencoes: NextPage = () => {
                             <hr className="max-w-xs mx-auto mt-6" />
                             <Link
                                 href="https://wa.me/5518991979000"
-                                className="btn btn-success mt-12"
+                                className="btn btn-success mt-12 hover:scale-105 duration-300"
                                 target={"_blank"}
                             >
                                 Faça sua cotação
@@ -94,8 +94,8 @@ const Convencoes: NextPage = () => {
                             solicite seu orçamento.
                         </h3>
                         <Link
-                            href="Planta Centro Convencao e Praca - 23-02-22"
-                            className="btn btn-success"
+                            href="/Planta%20Centro%20Convencao%20e%20Praca%20-%2023-02-22.pdf"
+                            className="btn btn-success hover:scale-105 duration-300"
                             target={"_blank"}
                         >
                             Visualizar Planta Baixa

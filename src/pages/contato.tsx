@@ -82,14 +82,14 @@ const Contato: NextPage = () => {
 
                             <button
                                 type="submit"
-                                className="btn btn-success btn-block mt-4"
+                                className="btn btn-success btn-block mt-4 hover:scale-105 duration-300"
                             >
                                 Enviar
                             </button>
                         </form>
                         <iframe
                             frameBorder={"0"}
-                            className="border-none w-full h-full"
+                            className="border-none w-full h-full hover:scale-110 duration-300"
                             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZI5F_k6S1k46ujh0SNrapM89f7mJxd30&amp;q=Av. Flora Brasiliana nº 2500 – Araçatuba SP"
                             allowFullScreen={false}
                         ></iframe>

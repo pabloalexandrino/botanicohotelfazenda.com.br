@@ -29,7 +29,7 @@ const Home: NextPage = () => {
                             <hr className="max-w-xs mx-auto mb-6" />
                             <Link
                                 href="https://wa.me/5518991979000"
-                                className="btn btn-success btn-block mt-12"
+                                className="btn btn-success btn-block mt-12 hover:scale-105 duration-300"
                                 target={"_blank"}
                             >
                                 Agendar agora
@@ -58,9 +58,12 @@ const Home: NextPage = () => {
                                     Shopping Centers, Supermercados e
                                     Universidades.
                                 </p>
-                                <a href="#" className="btn btn-success">
+                                <Link
+                                    href="/contato"
+                                    className="btn btn-success hover:scale-105 duration-300"
+                                >
                                     Saiba mais
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="card pr-0">
@@ -93,9 +96,12 @@ const Home: NextPage = () => {
                                     de chão e churrasqueira, proporcionando um
                                     sabor único e tradicional.
                                 </p>
-                                <a href="#" className="btn btn-success">
+                                <Link
+                                    href="/contato"
+                                    className="btn btn-success hover:scale-105 duration-300"
+                                >
                                     Saiba mais
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -112,9 +118,12 @@ const Home: NextPage = () => {
                                     tennis, estação de mountain bike e piscinas
                                     cristalinas.
                                 </p>
-                                <a href="#" className="btn btn-success">
+                                <Link
+                                    href="/contato"
+                                    className="btn btn-success hover:scale-105 duration-300"
+                                >
                                     Saiba mais
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="card pr-0">
