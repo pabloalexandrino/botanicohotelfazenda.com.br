@@ -10,7 +10,7 @@ const Obrigado: NextPage = () => {
                 <div
                     className="hero h-96"
                     style={{
-                        backgroundImage: `url(/quem-somos.jpg)`,
+                        backgroundImage: `url(/quem-somos.webp)`,
                         backgroundAttachment: "fixed",
                         backgroundSize: "cover",
                     }}

@@ -10,7 +10,7 @@ const Empresa: NextPage = () => {
                 <div
                     className="hero h-96"
                     style={{
-                        backgroundImage: `url(/quem-somos.jpg)`,
+                        backgroundImage: `url(/quem-somos.webp)`,
                         backgroundAttachment: "fixed",
                         backgroundSize: "cover",
                     }}
@@ -106,7 +106,7 @@ const Empresa: NextPage = () => {
                             <div className="card bg-white shadow-lg">
                                 <div className="card-body">
                                     <img
-                                        src="/charrete.jpg"
+                                        src="/charrete.webp"
                                         className="h-full object-cover"
                                         alt=""
                                     />
@@ -115,7 +115,7 @@ const Empresa: NextPage = () => {
                             <div className="card bg-white shadow-lg">
                                 <div className="card-body">
                                     <img
-                                        src="/beach-tenis.jpg"
+                                        src="/beach-tenis.webp"
                                         className="h-full object-cover"
                                         alt=""
                                     />
@@ -124,7 +124,7 @@ const Empresa: NextPage = () => {
                             <div className="card bg-white shadow-lg">
                                 <div className="card-body">
                                     <img
-                                        src="/haras.jpg"
+                                        src="/haras.webp"
                                         className="h-full object-cover"
                                         alt=""
                                     />

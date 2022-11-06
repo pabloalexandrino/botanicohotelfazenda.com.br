@@ -18,7 +18,7 @@ const DayUse: NextPage = () => {
                 <div
                     className="hero h-[600px]"
                     style={{
-                        backgroundImage: `url(/23-dayuse-2000x1333.jpg)`,
+                        backgroundImage: `url(/23-dayuse-2000x1333.webp)`,
                         backgroundAttachment: "fixed",
                         backgroundSize: "cover",
                     }}
@@ -85,7 +85,7 @@ const DayUse: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg">
                             <div className="card-body">
                                 <img
-                                    src="/23-dayuse-5-bar-piscina-679x453.jpg"
+                                    src="/23-dayuse-5-bar-piscina-679x453.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -94,7 +94,7 @@ const DayUse: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg">
                             <div className="card-body">
                                 <img
-                                    src="/23-dayuse-2000x1333.jpg"
+                                    src="/23-dayuse-2000x1333.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -103,7 +103,7 @@ const DayUse: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg">
                             <div className="card-body">
                                 <img
-                                    src="/23-dayuse-baixa-679x453.jpg"
+                                    src="/23-dayuse-baixa-679x453.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -112,7 +112,7 @@ const DayUse: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg">
                             <div className="card-body">
                                 <img
-                                    src="/23-dayuse-foto-nova-beach-tenis-553x971.jpg"
+                                    src="/23-dayuse-foto-nova-beach-tenis-553x971.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -121,7 +121,7 @@ const DayUse: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg">
                             <div className="card-body">
                                 <img
-                                    src="/23-dayuse-foto-nova-bikes-679x453.jpg"
+                                    src="/23-dayuse-foto-nova-bikes-679x453.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -130,7 +130,7 @@ const DayUse: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg">
                             <div className="card-body">
                                 <img
-                                    src="/23-dayuse-foto-nova-charrete2-679x858.jpg"
+                                    src="/23-dayuse-foto-nova-charrete2-679x858.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -139,7 +139,7 @@ const DayUse: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg">
                             <div className="card-body">
                                 <img
-                                    src="/23-dayuse-foto-nova-skibum-679x453.jpg"
+                                    src="/23-dayuse-foto-nova-skibum-679x453.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -148,7 +148,7 @@ const DayUse: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg">
                             <div className="card-body">
                                 <img
-                                    src="/23-dayuse-img-4425-679x1019.jpg"
+                                    src="/23-dayuse-img-4425-679x1019.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -157,7 +157,7 @@ const DayUse: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg">
                             <div className="card-body">
                                 <img
-                                    src="/23-dayuse-img-7688-679x451.jpg"
+                                    src="/23-dayuse-img-7688-679x451.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -269,7 +269,7 @@ const DayUse: NextPage = () => {
                         </div>
                         <div>
                             <img
-                                src="/dayuse.jpg"
+                                src="/dayuse.webp"
                                 alt=""
                                 className="rounded-lg shadow-lg mb-8"
                             />

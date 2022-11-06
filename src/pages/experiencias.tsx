@@ -11,7 +11,7 @@ const Experiencias: NextPage = () => {
                 <div
                     className="hero h-[600px]"
                     style={{
-                        backgroundImage: `url(/17-piscina-2000x1268.jpg)`,
+                        backgroundImage: `url(/17-piscina-2000x1268.webp)`,
                         backgroundAttachment: "fixed",
                         backgroundSize: "cover",
                     }}
@@ -43,7 +43,7 @@ const Experiencias: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/18-parquinho-1157x798.jpg"
+                                    src="/18-parquinho-1157x798.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -60,7 +60,7 @@ const Experiencias: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/botanico-16-volei-1156x771.jpg"
+                                    src="/botanico-16-volei-1156x771.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -77,7 +77,7 @@ const Experiencias: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/foto-nova-beach-tenis-553x971.jpg"
+                                    src="/foto-nova-beach-tenis-553x971.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -94,7 +94,7 @@ const Experiencias: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/foto-haras-1157x772.jpg"
+                                    src="/foto-haras-1157x772.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -112,7 +112,7 @@ const Experiencias: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/foto-nova-fazendinha-montagem-990x660.jpg"
+                                    src="/foto-nova-fazendinha-montagem-990x660.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -129,7 +129,7 @@ const Experiencias: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/foto-nova-bikes-990x660.jpg"
+                                    src="/foto-nova-bikes-990x660.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -149,7 +149,7 @@ const Experiencias: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/botanico-64-sauna-1156x771.jpg"
+                                    src="/botanico-64-sauna-1156x771.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -166,7 +166,7 @@ const Experiencias: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/20-piscina-social-1157x740.jpg"
+                                    src="/20-piscina-social-1157x740.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -184,7 +184,7 @@ const Experiencias: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/foto-nova-banheira-spa-990x660.jpg"
+                                    src="/foto-nova-banheira-spa-990x660.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -200,7 +200,7 @@ const Experiencias: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/foto-nova-skibum-990x660.jpg"
+                                    src="/foto-nova-skibum-990x660.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -218,7 +218,7 @@ const Experiencias: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/foto-nova-charrete2-735x929.jpg"
+                                    src="/foto-nova-charrete2-735x929.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -235,7 +235,7 @@ const Experiencias: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/pesca-solte.jpg"
+                                    src="/pesca-solte.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />

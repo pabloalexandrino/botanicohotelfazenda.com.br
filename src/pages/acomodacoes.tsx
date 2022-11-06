@@ -12,7 +12,7 @@ const Acomodacoes: NextPage = () => {
                 <div
                     className="hero h-96"
                     style={{
-                        backgroundImage: `url(/acomodacao.jpg)`,
+                        backgroundImage: `url(/acomodacao.webp)`,
                         backgroundAttachment: "fixed",
                         backgroundSize: "cover",
                     }}
@@ -63,14 +63,14 @@ const Acomodacoes: NextPage = () => {
                         <CardAcomodacoes
                             title="Apartamento Luxo"
                             images={[
-                                "botanicohotel-503-ap-luxo1-1538x1025.jpg",
-                                "46f3824b-9d13-44a7-b513-be56ee544c82-1-1200x1600.jpg",
-                                "botanicohotel-503-ap-luxo1-1538x1025.jpg",
-                                "botanicohotel-503-ap-luxo2-1130x753.jpg",
-                                "botanicohotel-503-ap-luxo3-1685x1123.jpg",
-                                "botanicohotel-503-ap-luxo4-1530x1020.jpg",
-                                "botanicohotel-503-ap-luxo5-1461x974.jpg",
-                                "botanicohotel-503-ap-luxo6-988x659.jpg",
+                                "botanicohotel-503-ap-luxo1-1538x1025.webp",
+                                "46f3824b-9d13-44a7-b513-be56ee544c82-1-1200x1600.webp",
+                                "botanicohotel-503-ap-luxo1-1538x1025.webp",
+                                "botanicohotel-503-ap-luxo2-1130x753.webp",
+                                "botanicohotel-503-ap-luxo3-1685x1123.webp",
+                                "botanicohotel-503-ap-luxo4-1530x1020.webp",
+                                "botanicohotel-503-ap-luxo5-1461x974.webp",
+                                "botanicohotel-503-ap-luxo6-988x659.webp",
                             ]}
                             items={[
                                 "Duplo, Triplo ou Quádruplo",
@@ -88,13 +88,13 @@ const Acomodacoes: NextPage = () => {
                         <CardAcomodacoes
                             title="Suíte master"
                             images={[
-                                "botanicohotel-495-suite-master3-1616x1077.jpg",
-                                "botanicohotel-495-suite-master1-1338x892.jpg",
-                                "botanicohotel-495-suite-master2-1602x1068.jpg",
-                                "botanicohotel-495-suite-master4-1074x715.jpg",
-                                "botanicohotel-495-suite-master5-2000x1333.jpg",
-                                "img-3700-1200x1600.jpg",
-                                "img-3704-1200x1600.jpg",
+                                "botanicohotel-495-suite-master3-1616x1077.webp",
+                                "botanicohotel-495-suite-master1-1338x892.webp",
+                                "botanicohotel-495-suite-master2-1602x1068.webp",
+                                "botanicohotel-495-suite-master4-1074x715.webp",
+                                "botanicohotel-495-suite-master5-2000x1333.webp",
+                                "img-3700-1200x1600.webp",
+                                "img-3704-1200x1600.webp",
                             ]}
                             items={[
                                 "Duplo, Triplo ou Quádruplo",
@@ -112,14 +112,14 @@ const Acomodacoes: NextPage = () => {
                         <CardAcomodacoes
                             title="Suíte Imperial"
                             images={[
-                                "botanicohotel-479-1-imperial1-1496x998.jpg",
-                                "botanicohotel-479-1-imperial3-980x653.jpg",
-                                "botanicohotel-479-1-imperial4-2000x1333.jpg",
-                                "botanicohotel-479-1-imperial5-1080x719.jpg",
-                                "botanicohotel-479-1-imperial6-1130x753.jpg",
-                                "botanicohotel-479-1-imperial7-1576x1051.jpg",
-                                "imperial-photo-2022-01-25-09-41-51-2-1200x1600.jpg",
-                                "imperial-photo-2022-01-25-09-41-52-1200x1600.jpg",
+                                "botanicohotel-479-1-imperial1-1496x998.webp",
+                                "botanicohotel-479-1-imperial3-980x653.webp",
+                                "botanicohotel-479-1-imperial4-2000x1333.webp",
+                                "botanicohotel-479-1-imperial5-1080x719.webp",
+                                "botanicohotel-479-1-imperial6-1130x753.webp",
+                                "botanicohotel-479-1-imperial7-1576x1051.webp",
+                                "imperial-photo-2022-01-25-09-41-51-2-1200x1600.webp",
+                                "imperial-photo-2022-01-25-09-41-52-1200x1600.webp",
                             ]}
                             items={[
                                 "Cama Casal King size",
@@ -135,14 +135,14 @@ const Acomodacoes: NextPage = () => {
                         <CardAcomodacoes
                             title="Flat (Botânico Residencial Club)"
                             images={[
-                                "botanico-56-1080x720.jpg",
-                                "botanico-56-flat1-1459x973.jpg",
-                                "botanico-56-flat2-1505x1003.jpg",
-                                "botanico-56-flat3-2000x1333.jpg",
-                                "botanicohotel-503-ap-luxo2-1130x753.jpg",
-                                "photo-2022-01-25-09-40-51-1600x1200.jpg",
-                                "photo-2022-01-25-09-40-51-1200x1600.jpg",
-                                "photo-2022-01-25-09-40-50-2-1200x1600.jpg",
+                                "botanico-56-1080x720.webp",
+                                "botanico-56-flat1-1459x973.webp",
+                                "botanico-56-flat2-1505x1003.webp",
+                                "botanico-56-flat3-2000x1333.webp",
+                                "botanicohotel-503-ap-luxo2-1130x753.webp",
+                                "photo-2022-01-25-09-40-51-1600x1200.webp",
+                                "photo-2022-01-25-09-40-51-1200x1600.webp",
+                                "photo-2022-01-25-09-40-50-2-1200x1600.webp",
                             ]}
                             items={[
                                 "Cama Casal King size",

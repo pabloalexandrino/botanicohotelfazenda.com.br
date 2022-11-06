@@ -22,7 +22,7 @@ const Convencoes: NextPage = () => {
                 <div
                     className="hero h-[600px]"
                     style={{
-                        backgroundImage: `url(/8e41a135-80a2-4643-bb31-3da7dc9b3b21-1600x1200.jpg)`,
+                        backgroundImage: `url(/8e41a135-80a2-4643-bb31-3da7dc9b3b21-1600x1200.webp)`,
                         backgroundAttachment: "fixed",
                         backgroundSize: "cover",
                     }}
@@ -105,7 +105,7 @@ const Convencoes: NextPage = () => {
                     <section className="w-full mb-8 text-center text-white">
                         <div className="max-w-7xl grid md:grid-cols-2 gap-8">
                             <img
-                                src="/foto-nova-fachada-salao-1842x1202.jpg"
+                                src="/foto-nova-fachada-salao-1842x1202.webp"
                                 className="rounded-lg shadow-lg hover:scale-105 duration-300"
                                 alt=""
                             />
@@ -167,7 +167,7 @@ const Convencoes: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/2f72c5a6-93cc-44cb-bbc2-06f89c33c222-679x508.jpg"
+                                    src="/2f72c5a6-93cc-44cb-bbc2-06f89c33c222-679x508.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -176,7 +176,7 @@ const Convencoes: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/451d3fd4-081b-48c7-97ac-314540f87d6b-679x509.jpg"
+                                    src="/451d3fd4-081b-48c7-97ac-314540f87d6b-679x509.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -185,7 +185,7 @@ const Convencoes: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/c0158fcd-884b-4b12-b345-438412518683-679x508.jpg"
+                                    src="/c0158fcd-884b-4b12-b345-438412518683-679x508.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -194,7 +194,7 @@ const Convencoes: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/centro-de-convencoes1-679x605.jpg"
+                                    src="/centro-de-convencoes1-679x605.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -203,7 +203,7 @@ const Convencoes: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/centro-de-convencoes2-679x580.jpg"
+                                    src="/centro-de-convencoes2-679x580.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -212,7 +212,7 @@ const Convencoes: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/centro-de-convencoes3-533x519.jpg"
+                                    src="/centro-de-convencoes3-533x519.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />

@@ -11,7 +11,7 @@ const Home: NextPage = () => {
                 <div
                     className="hero min-h-screen"
                     style={{
-                        backgroundImage: `url(/hero-home.jpg)`,
+                        backgroundImage: `url(/hero-home.webp)`,
                         backgroundAttachment: "fixed",
                         backgroundSize: "cover",
                     }}
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
                         </div>
                         <div className="card pr-0">
                             <img
-                                src="/localizacao.jpg"
+                                src="/localizacao.webp"
                                 className="w-full h-full image-full"
                                 alt="Localização"
                             />
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
                     <div className="grid grid-cols-2 text-center bg-white max-w-7xl mx-auto">
                         <div className="card pr-0">
                             <img
-                                src="/comida.jpg"
+                                src="/comida.webp"
                                 className="w-full h-full image-full"
                                 alt="Comida da Fazenda"
                             />
@@ -128,7 +128,7 @@ const Home: NextPage = () => {
                         </div>
                         <div className="card pr-0">
                             <img
-                                src="/kids.jpg"
+                                src="/kids.webp"
                                 className="w-full h-full image-full"
                                 alt="Atividades para Crianças"
                             />

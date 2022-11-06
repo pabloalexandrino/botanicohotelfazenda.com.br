@@ -18,7 +18,7 @@ const Servicos: NextPage = () => {
                 <div
                     className="hero h-[600px]"
                     style={{
-                        backgroundImage: `url(/3-costela-2000x1328.jpg)`,
+                        backgroundImage: `url(/3-costela-2000x1328.webp)`,
                         backgroundAttachment: "fixed",
                         backgroundSize: "cover",
                     }}
@@ -77,7 +77,7 @@ const Servicos: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/botanico-7-700x1084.jpg"
+                                    src="/botanico-7-700x1084.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -96,7 +96,7 @@ const Servicos: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/-mg-4425-700x1050.jpg"
+                                    src="/-mg-4425-700x1050.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -118,7 +118,7 @@ const Servicos: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/-mg-3596-700x1050.jpg"
+                                    src="/-mg-3596-700x1050.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -149,7 +149,7 @@ const Servicos: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/botanico-31-1140x760.jpg"
+                                    src="/botanico-31-1140x760.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -174,7 +174,7 @@ const Servicos: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/foto-nova-spa-1920x1080.jpg"
+                                    src="/foto-nova-spa-1920x1080.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
@@ -197,7 +197,7 @@ const Servicos: NextPage = () => {
                         <div className="card card-compact bg-white shadow-lg hover:scale-105 duration-300">
                             <div className="card-body">
                                 <img
-                                    src="/foto-haras-1140x760.jpg"
+                                    src="/foto-haras-1140x760.webp"
                                     alt=""
                                     className="h-full object-cover"
                                 />
