@@ -10,7 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 
-const Acomodacoes: NextPage = () => {
+const DayUse: NextPage = () => {
     return (
         <>
             <Navbar />
@@ -369,4 +369,4 @@ const Acomodacoes: NextPage = () => {
     );
 };
 
-export default Acomodacoes;
+export default DayUse;

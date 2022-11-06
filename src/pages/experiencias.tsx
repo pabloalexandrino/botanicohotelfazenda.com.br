@@ -1,16 +1,9 @@
 import type { NextPage } from "next";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClock } from "@fortawesome/free-regular-svg-icons";
-import {
-    faChildReaching,
-    faTableTennisPaddleBall,
-    faUtensils,
-} from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 
-const Acomodacoes: NextPage = () => {
+const Experiencias: NextPage = () => {
     return (
         <>
             <Navbar />
@@ -260,4 +253,4 @@ const Acomodacoes: NextPage = () => {
     );
 };
 
-export default Acomodacoes;
+export default Experiencias;
