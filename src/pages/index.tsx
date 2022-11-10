@@ -38,13 +38,13 @@ const Home: NextPage = () => {
                     </div>
                 </div>
                 <section>
-                    <h3 className="text-5xl font-bold text-center max-w-lg leading-tight my-12 text-green-900">
+                    <h3 className="px-6 text-3xl lg:text-5xl font-bold text-center max-w-lg leading-tight my-12 text-green-900">
                         Um Verdadeiro Resort com Ambiente Familiar e Estrutura
                         para Vivência na Fazenda
                     </h3>
                 </section>
-                <section className="bg-gray-200 w-full p-12">
-                    <div className="grid grid-cols-2 text-center bg-white max-w-7xl mx-auto">
+                <section className="bg-gray-200 w-full p-4 lg:p-12">
+                    <div className="grid lg:grid-cols-2 text-center bg-white max-w-7xl mx-auto">
                         <div className="card">
                             <div className="card-body flex flex-col justify-between py-8">
                                 <h3 className="font-bold text-3xl text-green-900 mb-6">
@@ -75,8 +75,8 @@ const Home: NextPage = () => {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-2 text-center bg-white max-w-7xl mx-auto">
-                        <div className="card pr-0">
+                    <div className="grid lg:grid-cols-2 text-center bg-white max-w-7xl mx-auto">
+                        <div className="card pr-0 order-last lg:order-first">
                             <img
                                 src="/comida.webp"
                                 className="w-full h-full image-full hover:scale-105 duration-300"
@@ -105,7 +105,7 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="grid grid-cols-2 text-center bg-white max-w-7xl mx-auto">
+                    <div className="grid lg:grid-cols-2 text-center bg-white max-w-7xl mx-auto">
                         <div className="card">
                             <div className="card-body flex flex-col justify-between py-8">
                                 <h3 className="font-bold text-3xl text-green-900 mb-6">

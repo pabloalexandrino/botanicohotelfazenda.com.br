@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="text-center py-12">
+        <footer className="text-center py-12 px-6">
             © {new Date().getFullYear()} Botânico Hotel Fazenda - Todos os
             direitos reservados
             <a
