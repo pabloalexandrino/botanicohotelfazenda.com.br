@@ -1,6 +1,7 @@
 export default function handler(req, res) {
     // Get data submitted in request's body.
     const body = req.body;
+    return req;
 
     if (!body.name || !body.email || !body.phone || !body.message) {
         // Sends a HTTP bad request error code
