@@ -1,8 +1,12 @@
+// import "react-phone-input-2/lib/style.css";
 import type { NextPage } from "next";
+import { useState } from "react";
+import PhoneInput from "react-phone-input-2";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 
 const Contato: NextPage = () => {
+    const [phoneNumber, setPhoneNumber] = useState("");
     return (
         <>
             <Navbar />
@@ -32,51 +36,58 @@ const Contato: NextPage = () => {
                         <form action="/api/form" method="post">
                             <div className="form-control w-full">
                                 <label htmlFor="name" className="label">
-                                    <span className="label-text">Nome</span>
+                                    <span>Nome</span>
                                 </label>
                                 <input
                                     id="name"
                                     name="name"
                                     type="text"
                                     placeholder="Digite aqui"
-                                    className="input input-bordered w-full"
+                                    className="input input-bordered"
+                                    required
                                 />
                             </div>
 
-                            <div className="form-control w-full">
+                            <div className="form-control w-full mt-2">
                                 <label htmlFor="email" className="label">
-                                    <span className="label-text">E-mail</span>
+                                    <span>E-mail</span>
                                 </label>
                                 <input
                                     id="email"
                                     type="email"
                                     name="email"
                                     placeholder="Seu e-mail"
-                                    className="input input-bordered w-full"
+                                    className="input input-bordered"
+                                    required
                                 />
                             </div>
 
-                            <div className="form-control w-full">
-                                <label htmlFor="phone" className="label">
-                                    <span className="label-text">Telefone</span>
-                                </label>
-                                <input
-                                    id="phone"
-                                    name="phone"
-                                    type="tel"
-                                    placeholder="(xx) xxxxx-xxxx"
-                                    className="input input-bordered w-full"
+                            <div className="form-control w-full mt-2">
+                                <PhoneInput
+                                    country={"br"}
+                                    value={phoneNumber}
+                                    onChange={(e) => setPhoneNumber(e)}
+                                    specialLabel="Telefone"
+                                    containerClass="mt-4"
+                                    disableCountryCode={true}
+                                    placeholder="(99) 99999-9999"
+                                    onlyCountries={["br"]}
+                                    masks={{
+                                        br: "(..) .....-....",
+                                    }}
+                                    inputClass="input input-bordered w-full"
                                 />
                             </div>
 
-                            <div className="form-control w-full">
+                            <div className="form-control w-full mt-2">
                                 <label htmlFor="message" className="label">
-                                    <span className="label-text">Mensagem</span>
+                                    <span>Mensagem</span>
                                 </label>
                                 <textarea
                                     id="message"
                                     name="message"
-                                    className="input input-bordered w-full h-24"
+                                    className="input input-bordered h-24"
+                                    required
                                 ></textarea>
                             </div>
 
