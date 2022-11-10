@@ -19,7 +19,7 @@ export default function handler(req, res) {
     sendSmtpEmail = {
         to: [
             {
-                email: "pabloalexandrino@icloud.com",
+                email: "gerencia@botanicohotelfazenda.com.br.",
                 name: "Gerencia Hotel Botânico",
             },
         ],
