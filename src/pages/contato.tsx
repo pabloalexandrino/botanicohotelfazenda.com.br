@@ -1,5 +1,6 @@
 // import "react-phone-input-2/lib/style.css";
 import type { NextPage } from "next";
+import Head from "next/head";
 import { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import Footer from "../components/footer";
@@ -9,6 +10,9 @@ const Contato: NextPage = () => {
     const [phoneNumber, setPhoneNumber] = useState("");
     return (
         <>
+            <Head>
+                <title>Botânico Hotel Fazenda</title>
+            </Head>
             <Navbar />
             <div className="flex min-h-screen flex-col items-center justify-center">
                 <div

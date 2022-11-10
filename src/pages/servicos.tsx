@@ -9,10 +9,14 @@ import {
     faSpa,
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
+import Head from "next/head";
 
 const Servicos: NextPage = () => {
     return (
         <>
+            <Head>
+                <title>Botânico Hotel Fazenda</title>
+            </Head>
             <Navbar />
             <div className="flex min-h-screen flex-col items-center justify-center">
                 <div

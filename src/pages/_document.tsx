@@ -4,7 +4,6 @@ export default function Document() {
     return (
         <Html>
             <Head>
-                <title>Botânico Hotel Fazenda</title>
                 <meta
                     name="keywords"
                     content="Hotel Fazenda, Hotel Araçatuba, Botânico Araçatuba, Lazer em Araçatuba, Descanso em Araçatuba"

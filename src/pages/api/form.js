@@ -19,16 +19,16 @@ export default function handler(req, res) {
     sendSmtpEmail = {
         to: [
             {
-                email: "gerencia@botanicohotelfazenda.com.br.",
+                email: "gerencia@botanicohotelfazenda.com.br",
                 name: "Gerencia Hotel Botânico",
             },
         ],
         templateId: 1,
         params: {
-            name: body?.name,
-            email: body?.email,
-            phone: body?.phone,
-            message: body?.message,
+            name: body.name,
+            email: body.email,
+            phone: body.phone,
+            message: body.message,
         },
         headers: {
             "api-key": apiKey.apiKey,
@@ -44,7 +44,6 @@ export default function handler(req, res) {
         },
         function (error) {
             console.error(error);
-            alert(error);
             res.redirect(302, "/contato");
         }
     );

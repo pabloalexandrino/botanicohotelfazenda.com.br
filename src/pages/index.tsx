@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 import Link from "next/link";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
@@ -6,6 +7,9 @@ import Navbar from "../components/navbar";
 const Home: NextPage = () => {
     return (
         <>
+            <Head>
+                <title>Botânico Hotel Fazenda</title>
+            </Head>
             <Navbar />
             <div className="flex min-h-screen flex-col items-center justify-center">
                 <div

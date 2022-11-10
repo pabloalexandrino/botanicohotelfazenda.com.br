@@ -2,10 +2,14 @@ import type { NextPage } from "next";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import Link from "next/link";
+import Head from "next/head";
 
 const Experiencias: NextPage = () => {
     return (
         <>
+            <Head>
+                <title>Botânico Hotel Fazenda</title>
+            </Head>
             <Navbar />
             <div className="bg-gray-100 flex min-h-screen flex-col items-center justify-center">
                 <div
