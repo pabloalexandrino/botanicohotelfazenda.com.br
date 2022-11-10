@@ -40,12 +40,12 @@ export default function handler(req, res) {
     apiInstance.sendTransacEmail(sendSmtpEmail).then(
         function (data) {
             console.log("API called successfully. Returned data: " + data);
-            res.redirect("/obrigado");
+            res.redirect(302, "/obrigado");
         },
         function (error) {
             console.error(error);
             alert(error);
-            res.redirect("/contato");
+            res.redirect(302, "/contato");
         }
     );
 
