@@ -1,9 +1,8 @@
 export default function handler(req, res) {
     // Get data submitted in request's body.
     const body = req.body;
-    return req;
 
-    if (!body.name || !body.email || !body.phone || !body.message) {
+    if (!body.name || !body.email || !body.message) {
         // Sends a HTTP bad request error code
         return res.status(400).json({ data: "Required fields are not found" });
     }
@@ -26,10 +25,10 @@ export default function handler(req, res) {
         ],
         templateId: 1,
         params: {
-            name: body.name,
-            email: body.email,
-            phone: body.phone,
-            message: body.message,
+            name: body?.name,
+            email: body?.email,
+            phone: body?.phone,
+            message: body?.message,
         },
         headers: {
             "api-key": apiKey.apiKey,

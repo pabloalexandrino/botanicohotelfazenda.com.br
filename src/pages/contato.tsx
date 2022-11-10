@@ -63,6 +63,11 @@ const Contato: NextPage = () => {
                             </div>
 
                             <div className="form-control w-full mt-2">
+                                <input
+                                    type="hidden"
+                                    name="phone"
+                                    value={phoneNumber}
+                                />
                                 <PhoneInput
                                     country={"br"}
                                     value={phoneNumber}
