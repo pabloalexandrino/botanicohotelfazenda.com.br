@@ -23,6 +23,10 @@ export default function handler(req, res) {
                 name: "Gerencia Hotel Botânico",
             },
         ],
+        replyTo: {
+            email: body.email,
+            name: body.name,
+        },
         templateId: 1,
         params: {
             name: body.name,
