@@ -10,8 +10,7 @@ export default function handler(req, res) {
     const SibApiV3Sdk = require("sib-api-v3-sdk");
     const defaultClient = SibApiV3Sdk.ApiClient.instance;
     const apiKey = defaultClient.authentications["api-key"];
-    apiKey.apiKey =
-        "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";
+    apiKey.apiKey = process.env.SENDINBLUE_API_KEY;
 
     const apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
     var sendSmtpEmail = new SibApiV3Sdk.SendSmtpEmail(); // SendSmtpEmail | Values to send a transactional email
@@ -19,8 +18,8 @@ export default function handler(req, res) {
     sendSmtpEmail = {
         to: [
             {
-                email: "gerencia@botanicohotelfazenda.com.br",
-                name: "Gerencia Hotel Botânico",
+                name: process.env.SENDINBLUE_TO_NAME,
+                email: process.env.SENDINBLUE_TO_EMAIL,
             },
         ],
         replyTo: {

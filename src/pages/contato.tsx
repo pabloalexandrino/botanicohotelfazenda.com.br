@@ -3,11 +3,18 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { useState } from "react";
 import PhoneInput from "react-phone-input-2";
+import Reaptcha from "reaptcha";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 
 const Contato: NextPage = () => {
     const [phoneNumber, setPhoneNumber] = useState("");
+    const [verified, setVerified] = useState(false);
+
+    const onVerify = (recaptchaResponse: String) => {
+        setVerified(true)
+    };
+
     return (
         <>
             <Head>
@@ -88,7 +95,7 @@ const Contato: NextPage = () => {
                                 />
                             </div>
 
-                            <div className="form-control w-full mt-2">
+                            <div className="form-control w-full mt-2 mb-5">
                                 <label htmlFor="message" className="label">
                                     <span>Mensagem</span>
                                 </label>
@@ -100,7 +107,13 @@ const Contato: NextPage = () => {
                                 ></textarea>
                             </div>
 
+                            <Reaptcha
+                                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                                onVerify={onVerify}
+                            />
+
                             <button
+                                disabled={!verified}
                                 type="submit"
                                 className="btn btn-success btn-block mt-4 hover:scale-105 duration-300"
                             >

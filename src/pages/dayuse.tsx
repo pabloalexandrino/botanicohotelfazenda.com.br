@@ -1,15 +1,15 @@
-import type { NextPage } from "next";
-import Footer from "../components/footer";
-import Navbar from "../components/navbar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import {
     faChildReaching,
     faTableTennisPaddleBall,
-    faUtensils,
+    faUtensils
 } from "@fortawesome/free-solid-svg-icons";
-import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
+import Footer from "../components/footer";
+import Navbar from "../components/navbar";
 
 const DayUse: NextPage = () => {
     return (
@@ -86,7 +86,7 @@ const DayUse: NextPage = () => {
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-center bg-white max-w-7xl mx-auto">
-                        <div className="card card-compact bg-white shadow-lg">
+                        {/* <div className="card card-compact bg-white shadow-lg">
                             <div className="card-body">
                                 <img
                                     src="/23-dayuse-5-bar-piscina-679x453.webp"
@@ -94,7 +94,7 @@ const DayUse: NextPage = () => {
                                     className="h-full object-cover"
                                 />
                             </div>
-                        </div>
+                        </div> */}
                         <div className="card card-compact bg-white shadow-lg">
                             <div className="card-body">
                                 <img

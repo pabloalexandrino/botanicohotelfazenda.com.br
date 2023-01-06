@@ -1,7 +1,3 @@
-import type { NextPage } from "next";
-import Footer from "../components/footer";
-import Navbar from "../components/navbar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faBuildingCircleCheck,
     faCarAlt,
@@ -10,10 +6,14 @@ import {
     faNetworkWired,
     faPalette,
     faPeopleGroup,
-    faPeopleLine,
+    faPeopleLine
 } from "@fortawesome/free-solid-svg-icons";
-import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
+import Footer from "../components/footer";
+import Navbar from "../components/navbar";
 
 const Convencoes: NextPage = () => {
     return (
@@ -121,7 +121,7 @@ const Convencoes: NextPage = () => {
                                             size="3x"
                                         />
                                         Capacidade do Centro de Convenções até
-                                        1.200 pessoas
+                                        800 pessoas incluso as varandas.
                                     </div>
                                 </div>
                                 <div className="card bg-success shadow-lg hover:scale-105 duration-300">

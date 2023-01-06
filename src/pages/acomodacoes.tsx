@@ -83,7 +83,6 @@ const Acomodacoes: NextPage = () => {
                                 "Ar condicionado ",
                                 "Água quente e fria nos lavatórios e duchas",
                                 "TV (canais abertos)",
-                                "Banheira Jacuzzi",
                                 "Frigobar",
                                 "Fechadura Digital",
                             ]}
